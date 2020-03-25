@@ -62,6 +62,10 @@ struct LCM_DRIVER *lcm_driver_list[] = {
 	&it6151_lp079qx1_edp_dsi_video_lcm_drv,
 #endif
 
+#if defined(TD4310_FHD_DSI_VDO_CHUANGWEI_MALATA)
+    &td4310_fhd_dsi_vdo_chuangwei_malata_lcm_drv,
+#endif
+    
 #if defined(VVX10F008B00_WUXGA_DSI_VDO)
 	&vvx10f008b00_wuxga_dsi_vdo_lcm_drv,
 #endif
